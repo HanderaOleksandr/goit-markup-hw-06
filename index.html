@@ -401,20 +401,29 @@
         </div>
       </div>
     </footer>
-    <!-- <div class="backdrop is-hidden" data-modal>
-      <div class="modal"></div>
-      <button type="button" class="modal-close-btn" data-modal-close>
-        <svg class="close-btn-logo" width="20" height="20">
-          <use
-            href="./images/icons/modal icons/symbol-defs.svg#icon-close-black-18dp-2-1"
-            width="20"
-            height="20"
-          ></use>
-        </svg>
-      </button>
-    </div> -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <h2>Оставьте свои данные, мы вам перезвоним</h2>
+        <form class="js-speaker-form">
+          <label for="name">Имя</label>
+          <input type="text" name="" id="name" />
+          <br />
+
+          <label for="tel">Телефон</label>
+          <input type="tel" name="tel" id="tel" />
+          <br />
+          <label for="mail">Почта</label>
+          <input type="email" name="mail" id="mail" />
+          <br />
+          <label for="comments">Комментарий</label>
+          <input type="text" name="comments" id="comments" />
+          <br />
+          <input type="checkbox" name="contract" value="Отправить" id="Отправить" />
+          <label for="contract"
+            >Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label
+          >
+          <button type="submit">Отправить</button>
+        </form>
         <button type="button" class="modal-bnt-close" data-modal-close>
           <svg class="modal-close" width="18" height="18">
             <use href="./images/icons/modal icons/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
